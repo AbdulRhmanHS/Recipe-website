@@ -1,0 +1,12 @@
+ h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 56px;
+ }
+ body {
+    background-color: rgb(219, 168, 73);
+ }
+ ul li a {
+    font-size: 24px;
+ }
