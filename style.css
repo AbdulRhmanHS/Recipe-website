@@ -1,20 +1,28 @@
- h1 {
+ #title {
     text-align: center;
     background-color: gray;
     color: white;
     font-size: 56px;
  }
+ .sub-title {
+   width: max-content;
+   background-color: gray;
+   color: white;
+ }
  body {
     background-color: rgb(241, 177, 58);
  }
- li {
+ .main-list {
     font-size: 36px;
  }
- ul li {
+ .main-list li {
     display: table;
     margin: 0 auto;
  }
- img {
+ #odin,
+ #koshary,
+ #chicken,
+ #pizza {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,4 +38,13 @@
  #pizza {
     width: 33%;
     height: auto;
+ }
+ .description {
+   width: max-content;
+   background-color: rgb(192, 159, 98);
+ }
+ .last {
+   display: table;
+   margin: 0 auto;
+   font-size: 24px;
  }
