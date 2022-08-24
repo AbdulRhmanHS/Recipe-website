@@ -14,31 +14,42 @@
     background-color: rgb(241, 177, 58);
  }
  .main-list {
-    font-size: 36px;
+    font-size: 30px;
  }
  .main-list li {
-    display: table;
-    margin: 0 auto;
+    display: inline;
+    padding: 10px;
+    background-color: gray;
  }
- #odin,
- #koshary,
- #chicken,
- #pizza {
+ #one {
+   margin: 240px;
+ }
+ #two {
+   margin-left: 62px;
+ }
+ #three {
+   margin-left: 220px;
+ }
+ #odin {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 20%;
+    height: auto;
  }
- #odin {
-   width: 20%;
-   height: auto;
+ #koshary,
+ #chicken,
+ #pizza {
+   display: inline;
+   margin: 20px;
  }
  #chicken {
-    width: 33%;
-    height: auto;
+    width: auto;
+    height: 380px;
  }
  #pizza {
-    width: 33%;
-    height: auto;
+    width: auto;
+    height: 380px;
  }
  .description {
    width: max-content;
