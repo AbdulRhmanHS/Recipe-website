@@ -10,46 +10,42 @@
    color: white;
    padding: 7px;
  }
+ .main-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+ }
+ .main-container img {
+  width: auto;
+  height: 380px;
+ }
+ .main-container div {
+  flex: 0 1 auto;
+ }
+ .sub-container-1,
+ .sub-container-2,
+ .sub-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+ }
  body {
     background-color: rgb(241, 177, 58);
  }
- .main-list {
-    font-size: 30px;
- }
- .main-list li {
-    display: inline;
-    padding: 10px;
-    background-color: gray;
- }
- #one {
-   margin: 240px;
- }
- #two {
-   margin-left: 62px;
- }
- #three {
-   margin-left: 220px;
+ .main-container a {
+  font-size: 30px;
+  text-decoration: none;
+  background-color: gray;
+  padding: 5px;
+  margin: 0;
  }
  #odin {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    margin-bottom: 2em;
     width: 20%;
     height: auto;
- }
- #koshary,
- #chicken,
- #pizza {
-   display: inline;
-   margin: 20px;
- }
- #chicken {
-    width: auto;
-    height: 380px;
- }
- #pizza {
-    width: auto;
-    height: 380px;
  }
  .description {
    width: max-content;
