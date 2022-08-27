@@ -13,7 +13,8 @@
  .main-container {
   display: flex;
   justify-content: center;
-  column-gap: 2em;
+  gap: 2em;
+  flex-wrap: wrap;
  }
  .main-container img {
   width: auto;
